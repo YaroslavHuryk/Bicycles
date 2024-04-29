@@ -1,0 +1,154 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-top {
+    background: url('./images/maincsreen/bg.png') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.container-menu {
+    position: relative;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-family: firstfont;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 2.6px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo img {
+    position: relative;
+    width: 94px;
+    height: 85px;
+    padding-right: 63px;
+}
+
+.link {
+    padding-right: 63px;
+    margin-left: 0px;
+}
+
+.link2 {
+    padding-right: 0px;
+}
+
+.menu-item {
+    display: none;
+}
+
+@media (max-width:767px) {
+    .menu-item {
+        position: absolute;
+        display: flex;
+        z-index: 5;
+        cursor: pointer;
+        height: 23px;
+        width: 35px;
+        margin-left: 88%;
+        top: 30px;
+    }
+
+    .menu-item span,
+    .menu-item::before,
+    .menu-item::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        background-color: rgb(22, 91, 152);
+        transition: all 0.3s ease 0s;
+    }
+
+    .menu-item::before,
+    .menu-item::after {
+        content: "";
+    }
+
+    .menu-item::before {
+        top: 0;
+    }
+
+    .menu-item::after {
+        bottom: 0;
+    }
+
+    .menu-item span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .menu-item._active span {
+        transform: scale(0);
+    }
+
+    .menu-item._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+
+    .menu-item._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+    .container-menu {
+        flex-direction: column;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 100px 0px 0px 0px;
+        transition: left 0.5s ease 0s;
+    }
+
+    body.disactive {
+        overflow: hidden;
+    }
+
+    .container-menu._active {
+        left: 0;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        font-size: 2em;
+        margin-top: 0;
+        color: #fff;
+    }
+
+    .link,
+    .link2 {
+        text-wrap: nowrap;
+        padding: 40px 30% 40px 30%;
+    }
+
+    li:hover {
+        background-color: rgb(107, 106, 106);
+    }
+
+    .logo {
+        position: absolute;
+        top: 50px;
+    }
+
+    .logo img {
+        padding-right: 0;
+    }
+}

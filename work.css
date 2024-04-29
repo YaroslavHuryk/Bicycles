@@ -1,0 +1,205 @@
+/* третя сторінка і четверта сторінка*/
+.container-work {
+    /* Увага на рядок знизу! це для того зоб між контенером 1 для ворк і 2 для ворк не було проміжутка */
+    margin-top: -4px;
+    /* height: 75vh; */
+    width: 100vw;
+    display: flex;
+}
+
+.container-one {
+    height: 75vh;
+    width: 66.7%;
+    background-image: url("./images/work/images/Img\ 01.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.w-logo-one {
+    position: absolute;
+    height: 118px;
+    width: 113px;
+}
+
+.container-work-small {
+    height: 75vh;
+    width: 33.33%;
+}
+
+.container-two {
+    height: 67%;
+    width: 100%;
+    background-color: #ffff;
+}
+
+.w-logo-two {
+    padding-top: 17%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-logo-two {
+    height: 30px;
+    width: 41px;
+}
+
+.w-title-one {
+    font-family: firstfont;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.w-text-one {
+    text-align: justify;
+    color: #848789;
+    padding: 4.8% 12.5% 2.8% 12.5%;
+    font-family: secondfont;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+@media (max-height:745px) {
+    .w-text-one {
+        font-size: 0.7em;
+    }
+
+    .w-logo-two {
+        padding-top: 14%;
+    }
+}
+
+@media (max-width:1200px) {
+    .w-logo-two {
+        padding-top: 12%;
+    }
+}
+
+.line-main {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 50px;
+    height: 1px;
+    background-color: #848789;
+}
+
+.arrow-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #fff;
+}
+
+.container-three {
+    background-image: url("./images/work/images/Img\ 02.png");
+    width: 100%;
+    height: 33%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* четверта сторінка */
+
+.container-one-3 {
+    height: 75vh;
+    width: 66.7%;
+    background-image: url("./images/work/images/Img\ 012.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-three-3 {
+    background-image: url("./images/work/images/Img\ 022.png");
+    width: 100%;
+    height: 33%;
+}
+
+.container-one-3,
+.container-three-3 {
+    background-size: cover;
+    /* Розтягує зображення, але зберігає пропорції і вирівнює його */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:1200px) {
+    .container-work {
+        flex-direction: column;
+    }
+
+    .container-work-small,
+    .container-one-3,
+    .container-one {
+        width: 100%;
+    }
+}
+
+/* 5-та */
+
+.container-work-smalls {
+    width: 100vw;
+    display: inline-flex;
+}
+
+.container-work-small-1 {
+    height: 75vh;
+    width: 33.33%;
+    background-image: url("./images/work/images/Img\ 013.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-small-logo-three {
+    height: 67px;
+    width: 208px;
+}
+
+.container-three-4 {
+    background-image: url("./images/work/images/Img\ 033.png");
+    width: 100%;
+    height: 33%;
+}
+
+.container-work-small-3 {
+    height: 75vh;
+    width: 33.33%;
+    background-image: url("./images/work/images/Img\ 023.png");
+}
+
+.container-work-small-1,
+.container-three-4,
+.container-work-small-3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:1200px) {
+    .container-work-smalls {
+        flex-direction: column;
+    }
+
+    .container-work-small-1,
+    .container-work-small-3 {
+        width: 100%;
+    }
+}

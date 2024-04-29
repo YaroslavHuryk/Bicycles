@@ -1,0 +1,561 @@
+@font-face {
+    font-family: firstfont;
+    src: url(./fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: secondfont;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: latolight;
+    src: url(./fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: latoitalic;
+    src: url(./fonts/Lato-Italic.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px;
+}
+
+/* .container-top {
+    background: url('./images/maincsreen/bg.png') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.container-menu {
+    position: relative;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-family: firstfont;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 2.6px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo img {
+    position: relative;
+    width: 94px;
+    height: 85px;
+    padding-right: 63px;
+}
+
+.link {
+    padding-right: 63px;
+    margin-left: 0px;
+}
+
+.link2 {
+    padding-right: 0px;
+} */
+
+/* a {
+    text-decoration: none;
+}
+
+.container-about-twitter {
+    width: 100vw;
+    height: 469px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+.container-a-main {
+    width: 67.5%;
+    margin-top: 117px;
+    margin-bottom: 142px;
+}
+
+.a-logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-logo {
+    width: 52px;
+    height: 43px;
+}
+
+.a-title {
+    padding-top: 34px;
+    text-align: center;
+    font-family: firstfont;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+}
+
+p {
+    margin: 0px;
+}
+
+.a-text {
+    padding-top: 35px;
+    color: #848789;
+    font-family: secondfont;
+    line-height: 34px;
+    font-size: 18px;
+    text-align: center;
+} */
+
+/* третя сторінка і четверта сторінка
+
+.container-work {
+    /* Увага на рядок знизу! це для того зоб між контенером 1 для ворк і 2 для ворк не було проміжутка */
+/* margin-top: -4px;
+height: 75vh;
+width: 100vw;
+display: inline-flex;
+}
+
+.container-one {
+    height: 100%;
+    width: 66.7%;
+    background-image: url("./images/work/images/Img\ 01.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.w-logo-one {
+    position: absolute;
+    height: 118px;
+    width: 113px;
+}
+
+.container-work-small {
+    height: 100%;
+    width: 33.33%;
+}
+
+.container-two {
+    height: 67%;
+    width: 100%;
+    background-color: #ffff;
+}
+
+.w-logo-two {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-logo-two {
+    height: 30px;
+    width: 41px;
+}
+
+.w-title-one {
+    font-family: firstfont;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.w-text-one {
+    text-align: justify;
+    color: #848789;
+    padding: 4.8% 12.5% 2.8% 12.5%;
+    font-family: secondfont;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.line-main {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 50px;
+    height: 1px;
+    background-color: #848789;
+}
+
+.arrow-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin: 0;
+}
+
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #fff;
+}
+
+.container-three {
+    background-image: url("./images/work/images/Img\ 02.png");
+    width: 100%;
+    height: 33%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* четверта сторінка */
+/*
+.container-one-3 {
+    height: 100%;
+    width: 66.7%;
+    background-image: url("./images/work/images/Img\ 012.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-three-3 {
+    background-image: url("./images/work/images/Img\ 022.png");
+    width: 100%;
+    height: 33%;
+}
+
+.container-one-3,
+.container-three-3 {
+    background-size: cover;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+/* 5-та */
+/*
+.container-work-smalls {
+    height: 75vh;
+    width: 100vw;
+    display: inline-flex;
+}
+
+.container-work-small-1 {
+    height: 100%;
+    width: 33.33%;
+    background-image: url("./images/work/images/Img\ 013.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-small-logo-three {
+    height: 67px;
+    width: 208px;
+}
+
+.container-three-4 {
+    background-image: url("./images/work/images/Img\ 033.png");
+    width: 100%;
+    height: 33%;
+}
+
+.container-work-small-3 {
+    height: 100%;
+    width: 33.33%;
+    background-image: url("./images/work/images/Img\ 023.png");
+}
+
+.container-work-small-1,
+.container-three-4,
+.container-work-small-3 {
+    background-size: cover;
+    /* Розтягує зображення, але зберігає пропорції і вирівнює його */
+/*   background-position: center;
+    background-repeat: no-repeat;
+}
+
+*/
+/* 6-та */
+
+/* #logo-logo-twit {
+    height: 27px;
+    width: 32px;
+}
+
+.a-title span {
+    font-family: latolight;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+}
+
+.с-text-italic {
+    font-family: latoitalic;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #848789;
+    padding: 26px 67px 30px 67px;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-stretch: normal;
+}
+
+.elipses {
+    display: flex;
+    justify-content: center;
+}
+
+.Ellipse-1-copy {
+    background-color: #848789;
+}
+
+.Ellipse-1-copy,
+.Ellipse-2-copy {
+    width: 11px;
+    height: 11px;
+    border: solid 2px #848789;
+    border-radius: 50%;
+    margin-right: 9px;
+    margin-top: 74px;
+} */
+
+/* shop */
+
+/* .container-shop-main {
+    height: 91vh;
+    width: 100vw;
+}
+
+.container-shop {
+    height: 72%;
+    width: 100vw;
+    display: flex;
+}
+
+.s-container,
+.s-container-flex {
+    height: 100%;
+    width: 33.3%;
+}
+
+.picture-13,
+.picture-2,
+.box-picture {
+    height: 50%;
+    width: 100%;
+}
+
+.box-picture {
+    display: flex;
+}
+
+.picture-00 {
+    background-image: url("./images/shop/images/Img\ 01.png");
+}
+
+.picture-01 {
+    background-image: url("./images/shop/images/Img\ 02.png");
+}
+
+.picture-2 {
+    background-image: url("./images/shop/images/Img\ 03.png");
+}
+
+.s-container-flex {
+    display: flex;
+}
+
+.picture-12,
+.picture-22,
+.picture-13,
+.picture-023,
+.picture-033,
+.picture-00,
+.picture-01,
+.picture-2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.picture-033,
+.picture-023,
+.picture-01,
+.picture-00,
+.picture-12,
+.picture-22 {
+    height: 100%;
+    width: 50%;
+}
+
+.picture-12 {
+    background-image: url("./images/shop/images/Img\ 04.png");
+}
+
+.picture-22 {
+    background-image: url("./images/shop/images/Img\ 05.png");
+}
+
+.picture-13 {
+    background-image: url("./images/shop/images/Img\ 06.png");
+}
+
+.picture-023 {
+    background-image: url("./images/shop/images/Img\ 07.png");
+}
+
+.picture-033 {
+    background-image: url("./images/shop/images/Img\ 08.png");
+}
+
+.link-shop {
+    height: 200px;
+    width: 100%;
+    background-color: #282f35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-shop {
+    height: 50px;
+    width: 300px;
+    border: solid 1px #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    font-family: firstfont;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: white;
+} */
+
+/* mailing */
+
+/* .container-mailing {
+    height: 469px;
+    width: 100vw;
+    background-color: #ffff;
+}
+
+.logo-mailing {
+    display: flex;
+    justify-content: center;
+    padding-top: 109px;
+}
+
+.logo-mailing img {
+    height: 85px;
+    width: 94px;
+}
+
+.santence {
+    padding-top: 39px;
+    text-align: center;
+    font-family: latoitalic;
+    font-size: 24px;
+    color: #848789;
+}
+
+#enter-email {
+    font-family: latoitalic;
+    padding-left: 28px;
+    color: #929292;
+    font-size: 20px;
+    height: 68px;
+    width: 400px;
+    border: solid 0.5px #929292;
+}
+
+#enter-email-button {
+    font-family: latolight;
+    font-size: 24px;
+    color: white;
+    height: 70px;
+    width: 126px;
+    background-color: #64c29e;
+    border: 1px #64c29e;
+    margin-left: 8px;
+}
+
+.mailing {
+    padding-top: 35px;
+    padding-bottom: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+/* footer */
+
+/* .conatainer-footer {
+    background-color: #f7f7f7;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-footer {
+    height: 48px;
+    width: 1100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.left-text {
+    font-family: latoitalic;
+    font-size: 14px;
+    color: #848789;
+    padding-right: 246px;
+}
+
+.left-text span {
+    font-family: firstfont;
+    font-size: 16px;
+    color: #848789;
+}
+
+.logo1,
+.logo2,
+.logo3 {
+    height: 34px;
+    width: 35px;
+    padding-right: 15px;
+}
+
+.logo3 {
+    padding-right: 330px;
+}
+
+.right-text {
+    font-family: latoitalic;
+    font-size: 14px;
+    color: #848789;
+    padding-right: 9px;
+}
+
+.logo4 {
+    width: 55px;
+    height: 36px;
+} */
