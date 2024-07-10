@@ -51,3 +51,15 @@
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 765px) {
+    .mailing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #enter-email {
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
+}
