@@ -51,17 +51,13 @@
     display: flex;
     justify-content: center;
 }
+
 @media (max-width: 768px) {
     #enter-email {
-        font-family: latoitalic;
-        padding-left: 28px;
-        color: #929292;
-        font-size: 20px;
-        height: 68px;
+        padding-left: 0px;
         width: 300px;
-        border: solid 0.5px #929292;
     }
     .mailing {
-        display: block;
+        flex-direction: column;
     }
 }
