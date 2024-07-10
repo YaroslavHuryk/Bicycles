@@ -89,6 +89,7 @@
 
     .button-more._active {
         height: 30px;
+        background-color: #484949;
     }
 
     .content-footer {
