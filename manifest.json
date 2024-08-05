@@ -7,12 +7,12 @@
     "theme_color": "#000000",
     "icons": [
       {
-        "src": "/bicycles-site/icons/Circle-icons-bike-192.png",
+        "src": "/Bicycles/icons/Circle-icons-bike-192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/bicycles-site/icons/Circle-icons-bike-512.png",
+        "src": "/Bicycles/icons/Circle-icons-bike-512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
