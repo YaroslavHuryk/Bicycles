@@ -68,3 +68,19 @@ if (buttonMore.classList.contains("._active")) {
   buttonMore.classList.remove("_active");
   contentFooter.classList.remove("_active");
 }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then((registration) => {
+        console.log("Service Worker зареєстрований:", registration);
+      })
+      .catch((registrationError) => {
+        console.log(
+          "Service Worker реєстрація зазнала невдачі:",
+          registrationError
+        );
+      });
+  });
+}
