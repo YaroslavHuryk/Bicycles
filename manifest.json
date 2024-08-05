@@ -1,6 +1,6 @@
 {
-    "name": "Назва вашого додатку",
-    "short_name": "Коротка назва",
+    "name": "bicycles-app",
+    "short_name": "bike",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
