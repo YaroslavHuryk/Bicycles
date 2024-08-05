@@ -6,8 +6,8 @@ self.addEventListener("install", (event) => {
         "/index.html",
         "/style.css",
         "/script.js",
-        "/icons/icon-192x192.png",
-        "/icons/icon-512x512.png",
+        "/icons/icons/Circle-icons-bike.png",
+        "/icons/icons/Circle-icons-bike.png",
       ]);
     })
   );
