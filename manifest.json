@@ -1,7 +1,7 @@
 {
     "name": "bicycles-app",
     "short_name": "bike",
-    "start_url": "/Bicycles/",
+    "start_url": "/Bicycles/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
