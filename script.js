@@ -9,7 +9,6 @@ iconBurger.addEventListener("click", function (e) {
   mainBody.classList.toggle("disactive");
 });
 
-// i do not know why do i need it
 if (iconBurger.classList.contains("._active")) {
   iconBurger.classList.remove("_active");
   menuBody.classList.remove("_active");
